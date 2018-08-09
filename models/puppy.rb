@@ -1,0 +1,8 @@
+class Puppy 
+  attr_reader :name, :breed, :age
+
+  def inititlize(name, breed, age) 
+    @name = name 
+    @breed = breed 
+    @age = age
+  end
